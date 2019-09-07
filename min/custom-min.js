@@ -5,12 +5,12 @@
     var animationDelay = 2500,
       barAnimationDelay = 3800,
       barWaiting = barAnimationDelay - 3000,
-      lettersDelay = 50,
-      typeLettersDelay = 150,
+      lettersDelay = 30,
+      typeLettersDelay = 120,
       selectionDuration = 500,
       typeAnimationDelay = selectionDuration + 800,
-      revealDuration = 600,
-      revealAnimationDelay = 1500;
+      revealDuration = 300,
+      revealAnimationDelay = 1200;
     initHeadline();
     function initHeadline() {
       singleLetters($('.cd-headline.letters').find('b'));
