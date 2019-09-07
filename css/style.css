@@ -12,7 +12,13 @@
 .icon-block {
     padding: 0 15px;
 }
+.responsive-img{
+    max-width: 300px !important;
 
+}
+.img-text{
+    display: inline-block !important;
+}
 #intro, #work, #team {padding-top: 4rem;}
 
 
